@@ -1,0 +1,29 @@
+{
+    "BLE_FILTERS": {
+        "MAC": {
+            "11:22:33:44:55:66 ": "SENS1",
+            "11:22:33:44:55:77 ": "SENS1"
+        },
+        "UUID": {
+            "1122": "Phone detection by UUID (1)"
+        }
+    },
+    "max_t_default": 10,
+    "dt_default": 0.05,
+    "axis": {
+        "rssi_min_def": -100,
+        "rssi_max_def": 0,
+        "rssi_y_step": 20,
+        "dist_min_def": 0,
+        "dist_max_def": 2,
+        "dist_y_step": 2
+    },
+    "rssi_conv": {
+        "N_VAL": 2,
+        "MEASURED_PWR": -69
+    },
+    "csv": {
+        "dir": "results",
+        "fname": "csv_data.csv"
+    }
+}
